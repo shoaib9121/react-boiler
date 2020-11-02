@@ -1,5 +1,5 @@
-import { TodoAction } from "./todo";
+import { TodoAction } from "./Todo";
 
-export * from "./todo";
+export * from "./Todo";
 
 export type Action = TodoAction;
