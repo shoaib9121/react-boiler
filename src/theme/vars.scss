@@ -1,0 +1,67 @@
+// Font-Faces
+@font-face {
+  font-family: AvenirNext;
+  src: local(AvenirNext-Regular),
+    url(/path/to/AvenirNext-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+:root {
+  --color-brand: #004f9f;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark-grey: #212529;
+  --color-light-grey: #e9ecef;
+}
+
+// Font-Family
+$font-family: "AvenirNext", "Roboto", "Helvetica", "Arial", "sans-seriff";
+$header-font-family: "Roboto";
+
+$new-font-family: "AvenirNext", "Roboto", "Helvetica", "Arial", "sans-seriff";
+
+$white: #ffffff;
+$red: #bf2026;
+$lightgrey: #d3d3d3;
+$black: #000000;
+$arsenic: #39424a;
+$yellow: #f8cc01;
+$teal: teal;
+$purple: purple;
+$skyblue: #3b99d9;
+$lightcrimson: #e3515d;
+$seagreen: #3cc5d1;
+$violet: #8d48ab;
+$gray: gray;
+$gray80: #ccc;
+$green: green;
+
+$primary: #49d7ca;
+$secondary: #bf2026;
+$tertiary: #147c9e;
+
+// Input-colors
+$inputBackgroundColor: #dde3ec;
+$inputTextColor: #829083;
+$imageInput: #3f51b5;
+
+//Font colors
+$table-header-font: #333;
+$section-title: #2a3239;
+$section-details: #4a4a4a;
+$tab-hover: $themeAzure;
+$chat-notification-color: $themeAzure;
+$backdrop-text-color: #417505;
+$success: #239710;
+$error: #d0021b;
+
+$support-chat-color: #11ace2;
+
+//switch colors
+$switch-color: $themeAzure;
+$switch-track-color: $themeAzure;
+
+//footer
+$footer-text: #bbb;
